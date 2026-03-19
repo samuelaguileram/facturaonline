@@ -1,0 +1,10 @@
+parameters:
+    level: 5
+    paths:
+        - src
+    treatPhpDocTypesAsCertain: false
+    ignoreErrors:
+        - '#Method FacturaOnline\\Services\\CFDI\\CfdiService::validatePaymentCfdi\(\) is unused#'
+        - '#Constant FacturaOnline\\Services\\Payroll\\PayrollService::NUMERIC_RECORD_FIELDS is unused#'
+        - '#Constant FacturaOnline\\Services\\Payroll\\PayrollService::NUMERIC_CONCEPT_FIELDS is unused#'
+        - '#Constant FacturaOnline\\Services\\Payroll\\PayrollService::NUMERIC_SEPARACION_FIELDS is unused#'
